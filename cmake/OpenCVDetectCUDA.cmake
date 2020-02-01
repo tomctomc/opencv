@@ -241,6 +241,8 @@ if(CUDA_FOUND)
     set(__cuda_arch_bin ${CUDA_ARCH_BIN})
   endif()
 
+  set(__cuda_arch_bin "5.3 6.0 6.1 6.2 7.0 7.2 7.5") # TOMCXXX need 5.3 or greater for dnn
+
   if(NOT DEFINED __cuda_arch_bin)
     if(ARM)
       set(__cuda_arch_bin "3.2")
