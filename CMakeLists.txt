@@ -726,6 +726,7 @@ if(BUILD_JAVA)
     include(cmake/android/OpenCVDetectAndroidSDK.cmake)
   else()
     include(cmake/OpenCVDetectApacheAnt.cmake)
+	set(JAVA_AWT_INCLUDE_PATH NotNeeded) # TOMCXXX openjdk doesn't have this
     find_package(JNI)
   endif()
 endif()
