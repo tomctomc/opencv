@@ -857,6 +857,7 @@ if(BUILD_JAVA)
         ocv_update(OPENCV_JAVA_SDK_BUILD_TYPE "JAVA")
       endif()
     endif()
+    set(JAVA_AWT_INCLUDE_PATH NotNeeded) # TOMCXXX openjdk doesn't have this
     find_package(JNI)
   endif()
 endif()
