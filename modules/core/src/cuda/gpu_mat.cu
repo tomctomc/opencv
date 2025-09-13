@@ -1,3 +1,4 @@
+#define CCCL_IGNORE_DEPRECATED_CPP_DIALECT 1 // TOMCXXXXXXXX
 /*M///////////////////////////////////////////////////////////////////////////////////////
 //
 //  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
